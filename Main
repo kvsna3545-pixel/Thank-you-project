@@ -15,11 +15,11 @@ Ui.Parent = gui
 local TextLabel = Instance.new("TextLabel")
 TextLabel.Size = UDim2.new(1, 0, 0, 42)
 TextLabel.Position = UDim2.new(0, 0, 0, 0)
-TextLabel.BackgroundColor3 = Color3.fromRGB(1, 999, 1)
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderColor3 = Color3.new(1, 999, 1)
 TextLabel.BorderSizePixel = 3
 TextLabel.Text = "Thank you Project"
-TextLabel.TextColor3 = Color3.new(1, 999, 1)
+TextLabel.TextColor3 = Color3.new(255, 255, 255)
 TextLabel.TextScaled = true
 TextLabel.Font = Enum.Font.Legacy
 TextLabel.Parent = Ui
@@ -182,7 +182,7 @@ local scripts = {
     {"Warhammer", "https://pastebin.com/raw/XcpT3qyM"},
     {"Neko Knuckles", "https://pastebin.com/raw/gYt5K4k5"},
     {"1x1x1x1x1", "https://rawscripts.net/raw/Natural-Disaster-Survival-1X1X1X1-GUI-PLS-LIKE-11504"},
-    {"Project Hacker 1.0", "https://github.com/kvsna3545-pixel/Hacker_Project_1/blob/main/Project_Hacker_1.0"},
+    {"Project Hacker 1.0", "https://raw.githubusercontent.com/kvsna3545-pixel/Hacker_Project_1/refs/heads/main/Project_Hacker_1.0"},
     {"fps boost", "https://raw.githubusercontent.com/JoshzzAlteregooo/JoshzzFpsBoosterVersion3/refs/heads/main/JoshzzNewFpsBooster"},
     {"NAME SCRIPT", "a"},
     {"NAME SCRIPT", "a"},
@@ -294,7 +294,7 @@ local function loadPage()
         backBtn.Size = UDim2.new(0, 80, 0, 28)
         backBtn.Text = "Back"
         backBtn.TextColor3 = Color3.new(0, 0, 0)
-        backBtn.BackgroundColor3 = Color3.fromRGB(255, 245, 245)
+        backBtn.BackgroundColor3 = Color3.fromRGB(245, 245, 245)
         backBtn.BorderColor3 = Color3.new(1, 999, 1)
         backBtn.BorderSizePixel = 1
         backBtn.Font = Enum.Font.Legacy
@@ -317,7 +317,7 @@ local function loadPage()
         nextBtn.Size = UDim2.new(0, 80, 0, 28)
         nextBtn.Text = "Next"
         nextBtn.TextColor3 = Color3.new(0, 0, 0)
-        nextBtn.BackgroundColor3 = Color3.fromRGB(1, 999.1)
+        nextBtn.BackgroundColor3 = Color3.fromRGB(245, 245.245)
         nextBtn.BorderColor3 = Color3.new(1, 999, 1)
         nextBtn.BorderSizePixel = 1
         nextBtn.Font = Enum.Font.Legacy
