@@ -175,7 +175,7 @@ local title = Instance.new("TextLabel")
 	title.ZIndex = 2
 	title.Font = tef
 	title.FontSize = "Size24"
-	title.Text = "c00lgui Reborn Rc7 by v3rx"
+	title.Text = "0.01 Script gui by kvsna3545"
 	title.TextColor3 = whit
 --           inside pages        --
 local acg = Instance.new("Frame")
@@ -30570,3 +30570,4 @@ local textbx = Instance.new("TextBox")
 		titl.TextColor3 = whit
 		titl.TextWrapped = true
 --Settings--
+
