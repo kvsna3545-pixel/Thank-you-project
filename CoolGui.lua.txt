@@ -28,7 +28,7 @@ G2L["3"]["BorderSizePixel"] = 3;
 G2L["3"]["TextSize"] = 24;
 G2L["3"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["3"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["3"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["3"]["TextColor3"] = Color3.fromRGB(38, 55, 0);
 G2L["3"]["Size"] = UDim2.new(1, 0, 0, 40);
 G2L["3"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
 G2L["3"]["Text"] = [[Thank you Project V3 by kvsna3545]];
@@ -86,7 +86,7 @@ G2L["8"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
 G2L["8"]["Name"] = [[Settings]];
 
 
--- StarterGui.CoolGui.Frame.Settings.SettingsTitle
+-- StarterGui.CoolGui.Frame.Settings.SettingsTab
 G2L["9"] = Instance.new("TextLabel", G2L["8"]);
 G2L["9"]["BorderSizePixel"] = 3;
 G2L["9"]["TextSize"] = 24;
@@ -30224,5 +30224,6 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 })
 
 return G2L["1"], require;
+
 
 
