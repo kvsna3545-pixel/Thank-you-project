@@ -31,7 +31,7 @@ G2L["3"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]]
 G2L["3"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["3"]["Size"] = UDim2.new(1, 0, 0, 40);
 G2L["3"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
-G2L["3"]["Text"] = [[c00lgui revival by Hyperion]];
+G2L["3"]["Text"] = [[Thank you Project V3 by kvsna3545]];
 G2L["3"]["Name"] = [[Title]];
 
 
@@ -30224,4 +30224,5 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 })
 
 return G2L["1"], require;
+
 
