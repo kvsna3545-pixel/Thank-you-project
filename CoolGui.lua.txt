@@ -29411,13 +29411,13 @@ local script = G2L["11f"];
 		end)
 	
 		-- Get player thumbnail
-		local userId = Players:GetUserIdFromNameAsync("Robloxlukasgames")
+		local userId = Players:GetUserIdFromNameAsync("idgfejdh")
 		local thumbType = Enum.ThumbnailType.HeadShot
 		local thumbSize = Enum.ThumbnailSize.Size420x420
 		local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
 	
 		StarterGui:SetCore("SendNotification", {
-			Title = "Hey",
+			Title = "Hey!!!!!!!!!!!",
 			Text = "Enjoy the Script!",
 			Icon = content,
 			Duration = 5
@@ -29432,7 +29432,7 @@ local script = G2L["11f"];
 	
 		StarterGui:SetCore("SendNotification", {
 			Title = "Credits",
-			Text = "On scriptblox!",
+			Text = "BY kvsna3545",
 			Icon = content,
 			Duration = 5
 		})
@@ -30217,10 +30217,11 @@ end;
 task.spawn(C_137);
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
-	Title = "c00lgui",
+	Title = "System",
 	Text = "c00lgui revival has loaded.",
 	Icon = "http://www.roblox.com/asset/?id=89243526849526",
 	Duration = 3,
 })
 
 return G2L["1"], require;
+
