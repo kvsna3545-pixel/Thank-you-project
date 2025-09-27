@@ -1,4 +1,4 @@
-		titl.Parent = nmb
+        titl.Parent = nmb
 		titl.BackgroundColor3 = blak
 		titl.BorderColor3 = rede
 		titl.BorderSizePixel = 3
@@ -30570,4 +30570,5 @@ local textbx = Instance.new("TextBox")
 		titl.TextColor3 = whit
 		titl.TextWrapped = true
 --Settings--
+
 
