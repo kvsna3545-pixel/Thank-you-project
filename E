@@ -1,0 +1,432 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local MainFrame = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local Executor = Instance.new("TextButton")
+local ExecutorFrame = Instance.new("Frame")
+local FrameK = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local File = Instance.new("TextButton")
+local Clear = Instance.new("TextButton")
+local Execute = Instance.new("TextButton")
+local Outputithink = Instance.new("TextBox")
+local Settings = Instance.new("TextButton")
+local close = Instance.new("TextButton")
+local bigger_dontwork = Instance.new("TextButton")
+local Remove = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.288775504, 0, 0.203557312, 0)
+Frame.Size = UDim2.new(0, 490, 0, 27)
+Frame.Active = true
+Frame.Draggable = true
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = Frame
+MainFrame.BackgroundColor3 = Color3.fromRGB(234, 234, 234)
+MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainFrame.BorderSizePixel = 0
+MainFrame.Position = UDim2.new(0, 0, 1, 0)
+MainFrame.Size = UDim2.new(0, 490, 0, 314)
+
+Title.Name = "Title"
+Title.Parent = Frame
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.0279069766, 0, 0.148148149, 0)
+Title.Size = UDim2.new(0, 122, 0, 21)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "kvsna3545 Executor"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.0139534883, 0, 0.222222224, 0)
+ImageLabel.Size = UDim2.new(0, 17, 0, 17)
+ImageLabel.Image = "rbxassetid://103792612098891"
+
+Executor.Name = "Executor"
+Executor.Parent = Frame
+Executor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Executor.BorderColor3 = Color3.fromRGB(124, 124, 124)
+Executor.Position = UDim2.new(0.0135440128, 0, 1.22222221, 0)
+Executor.Size = UDim2.new(0, 45, 0, 17)
+Executor.Font = Enum.Font.SourceSans
+Executor.Text = "Executor"
+Executor.TextColor3 = Color3.fromRGB(0, 0, 0)
+Executor.TextSize = 14.000
+
+ExecutorFrame.Name = "ExecutorFrame"
+ExecutorFrame.Parent = Frame
+ExecutorFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ExecutorFrame.BorderColor3 = Color3.fromRGB(124, 124, 124)
+ExecutorFrame.Position = UDim2.new(0.0139535712, 0, 1.85185182, 0)
+ExecutorFrame.Size = UDim2.new(0, 483, 0, 291)
+
+FrameK.Name = "FrameK"
+FrameK.Parent = ExecutorFrame
+FrameK.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FrameK.BorderColor3 = Color3.fromRGB(124, 124, 124)
+FrameK.Position = UDim2.new(0.823655844, 0, 0.0526316017, 0)
+FrameK.Size = UDim2.new(0, 75, 0, 262)
+
+-- Create script buttons in FrameK
+local InfiniteYield = Instance.new("TextButton")
+InfiniteYield.Name = "InfiniteYield"
+InfiniteYield.Parent = FrameK
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.BorderColor3 = Color3.fromRGB(124, 124, 124)
+InfiniteYield.Position = UDim2.new(0.1, 0, 0.05, 0)
+InfiniteYield.Size = UDim2.new(0.8, 0, 0.2, 0)
+InfiniteYield.Font = Enum.Font.SourceSans
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYield.TextSize = 12.000
+InfiniteYield.TextWrapped = true
+
+local ScriptPrivate = Instance.new("TextButton")
+ScriptPrivate.Name = "ScriptPrivate"
+ScriptPrivate.Parent = FrameK
+ScriptPrivate.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScriptPrivate.BorderColor3 = Color3.fromRGB(124, 124, 124)
+ScriptPrivate.Position = UDim2.new(0.1, 0, 0.3, 0)
+ScriptPrivate.Size = UDim2.new(0.8, 0, 0.2, 0)
+ScriptPrivate.Font = Enum.Font.SourceSans
+ScriptPrivate.Text = "Script Private"
+ScriptPrivate.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptPrivate.TextSize = 12.000
+ScriptPrivate.TextWrapped = true
+
+local LigmaV2 = Instance.new("TextButton")
+LigmaV2.Name = "LigmaV2"
+LigmaV2.Parent = FrameK
+LigmaV2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+LigmaV2.BorderColor3 = Color3.fromRGB(124, 124, 124)
+LigmaV2.Position = UDim2.new(0.1, 0, 0.55, 0)
+LigmaV2.Size = UDim2.new(0.8, 0, 0.2, 0)
+LigmaV2.Font = Enum.Font.SourceSans
+LigmaV2.Text = "Ligma V2"
+LigmaV2.TextColor3 = Color3.fromRGB(255, 255, 255)
+LigmaV2.TextSize = 12.000
+LigmaV2.TextWrapped = true
+
+TextBox.Parent = ExecutorFrame
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BorderColor3 = Color3.fromRGB(124, 124, 124)
+TextBox.Position = UDim2.new(0.013507559, 0, 0.0523059741, 0)
+TextBox.Size = UDim2.new(0, 385, 0, 155)
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.SourceSans
+TextBox.MultiLine = true
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+File.Name = "File"
+File.Parent = ExecutorFrame
+File.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+File.BorderColor3 = Color3.fromRGB(124, 124, 124)
+File.Position = UDim2.new(0.0150537631, 0, 0.853383482, 0)
+File.Size = UDim2.new(0, 122, 0, 29)
+File.Font = Enum.Font.SourceSans
+File.Text = "file"
+File.TextColor3 = Color3.fromRGB(0, 0, 0)
+File.TextSize = 14.000
+
+Clear.Name = "Clear"
+Clear.Parent = ExecutorFrame
+Clear.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Clear.BorderColor3 = Color3.fromRGB(124, 124, 124)
+Clear.Position = UDim2.new(0.0150537631, 0, 0.731072545, 0)
+Clear.Size = UDim2.new(0, 122, 0, 29)
+Clear.Font = Enum.Font.SourceSans
+Clear.Text = "Clear"
+Clear.TextColor3 = Color3.fromRGB(0, 0, 0)
+Clear.TextSize = 14.000
+
+Execute.Name = "Execute"
+Execute.Parent = ExecutorFrame
+Execute.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Execute.BorderColor3 = Color3.fromRGB(124, 124, 124)
+Execute.Position = UDim2.new(0.0150537631, 0, 0.607911825, 0)
+Execute.Size = UDim2.new(0, 122, 0, 29)
+Execute.Font = Enum.Font.SourceSans
+Execute.Text = "Execute"
+Execute.TextColor3 = Color3.fromRGB(0, 0, 0)
+Execute.TextSize = 14.000
+
+Outputithink.Name = "Outputithink"
+Outputithink.Parent = ExecutorFrame
+Outputithink.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Outputithink.BorderColor3 = Color3.fromRGB(124, 124, 124)
+Outputithink.Position = UDim2.new(0.29192546, 0, 0.604811013, 0)
+Outputithink.Size = UDim2.new(0, 250, 0, 101)
+Outputithink.Font = Enum.Font.SourceSans
+Outputithink.Text = ""
+Outputithink.TextColor3 = Color3.fromRGB(0, 0, 0)
+Outputithink.TextSize = 14.000
+Outputithink.TextXAlignment = Enum.TextXAlignment.Left
+Outputithink.TextYAlignment = Enum.TextYAlignment.Top
+
+Settings.Name = "Settings"
+Settings.Parent = Frame
+Settings.BackgroundColor3 = Color3.fromRGB(218, 218, 218)
+Settings.BorderColor3 = Color3.fromRGB(124, 124, 124)
+Settings.Position = UDim2.new(0.105380744, 0, 1.22222221, 0)
+Settings.Size = UDim2.new(0, 45, 0, 17)
+Settings.Font = Enum.Font.SourceSans
+Settings.Text = "Settings"
+Settings.TextColor3 = Color3.fromRGB(0, 0, 0)
+Settings.TextSize = 14.000
+
+close.Name = "close"
+close.Parent = Frame
+close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+close.BackgroundTransparency = 1.000
+close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+close.BorderSizePixel = 0
+close.Position = UDim2.new(0.797959208, 0, 0, 0)
+close.Size = UDim2.new(0, 37, 0, 27)
+close.Font = Enum.Font.SourceSans
+close.Text = "-"
+close.TextColor3 = Color3.fromRGB(0, 0, 0)
+close.TextSize = 14.000
+
+bigger_dontwork.Name = "bigger_dontwork"
+bigger_dontwork.Parent = Frame
+bigger_dontwork.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bigger_dontwork.BorderColor3 = Color3.fromRGB(0, 0, 0)
+bigger_dontwork.BorderSizePixel = 0
+bigger_dontwork.Position = UDim2.new(0.873469412, 0, 0, 0)
+bigger_dontwork.Size = UDim2.new(0, 33, 0, 25)
+bigger_dontwork.Font = Enum.Font.SourceSans
+bigger_dontwork.Text = "[]"
+bigger_dontwork.TextColor3 = Color3.fromRGB(198, 198, 198)
+bigger_dontwork.TextSize = 14.000
+
+Remove.Name = "Remove"
+Remove.Parent = Frame
+Remove.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Remove.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Remove.BorderSizePixel = 0
+Remove.Position = UDim2.new(0.940816343, 0, 0, 0)
+Remove.Size = UDim2.new(0, 29, 0, 23)
+Remove.Font = Enum.Font.SourceSans
+Remove.Text = "x"
+Remove.TextColor3 = Color3.fromRGB(0, 0, 0)
+Remove.TextSize = 14.000
+
+-- Create Settings Frame
+local SettingsFrame = Instance.new("Frame")
+SettingsFrame.Name = "SettingsFrame"
+SettingsFrame.Parent = Frame
+SettingsFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SettingsFrame.BorderColor3 = Color3.fromRGB(124, 124, 124)
+SettingsFrame.Position = UDim2.new(0.0139535712, 0, 1.85185182, 0)
+SettingsFrame.Size = UDim2.new(0, 483, 0, 291)
+SettingsFrame.Visible = false
+
+-- Create the three script buttons
+local PolariaButton = Instance.new("TextButton")
+PolariaButton.Name = "PolariaButton"
+PolariaButton.Parent = SettingsFrame
+PolariaButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PolariaButton.BorderColor3 = Color3.fromRGB(124, 124, 124)
+PolariaButton.Position = UDim2.new(0.1, 0, 0.1, 0)
+PolariaButton.Size = UDim2.new(0.8, 0, 0.2, 0)
+PolariaButton.Font = Enum.Font.SourceSans
+PolariaButton.Text = "Polaria"
+PolariaButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+PolariaButton.TextSize = 14.000
+
+local STIGMAButton = Instance.new("TextButton")
+STIGMAButton.Name = "STIGMAButton"
+STIGMAButton.Parent = SettingsFrame
+STIGMAButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+STIGMAButton.BorderColor3 = Color3.fromRGB(124, 124, 124)
+STIGMAButton.Position = UDim2.new(0.1, 0, 0.4, 0)
+STIGMAButton.Size = UDim2.new(0.8, 0, 0.2, 0)
+STIGMAButton.Font = Enum.Font.SourceSans
+STIGMAButton.Text = "STIGMA"
+STIGMAButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+STIGMAButton.TextSize = 14.000
+
+local LIGMAButton = Instance.new("TextButton")
+LIGMAButton.Name = "LIGMAButton"
+LIGMAButton.Parent = SettingsFrame
+LIGMAButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+LIGMAButton.BorderColor3 = Color3.fromRGB(124, 124, 124)
+LIGMAButton.Position = UDim2.new(0.1, 0, 0.7, 0)
+LIGMAButton.Size = UDim2.new(0.8, 0, 0.2, 0)
+LIGMAButton.Font = Enum.Font.SourceSans
+LIGMAButton.Text = "LIGMA"
+LIGMAButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+LIGMAButton.TextSize = 14.000
+
+local proButton = Instance.new("TextButton")
+proButton.Name = "proButton"
+proButton.Parent = SettingsFrame
+proButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+proButton.BorderColor3 = Color3.fromRGB(124, 124, 124)
+proButton.Position = UDim2.new(0.1, 0, 0.7, 0)
+proButton.Size = UDim2.new(0.8, 0, 0.2, 0)
+proButton.Font = Enum.Font.SourceSans
+proButton.Text = "project"
+proButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+proButton.TextSize = 14.000
+
+-- Scripts:
+
+local function LXZFXVA_fake_script() -- Clear.LocalScript 
+    local script = Instance.new('LocalScript', Clear)
+
+    script.Parent.MouseButton1Click:Connect(function()
+        script.Parent.Parent.TextBox.Text = ""
+    end)
+end
+coroutine.wrap(LXZFXVA_fake_script)()
+
+local function RLDMLYY_fake_script() -- Execute.LocalScript 
+    local script = Instance.new('LocalScript', Execute)
+
+    local TextBox = script.Parent.Parent.TextBox
+    local Outputithink = script.Parent.Parent.Outputithink
+    
+    script.Parent.MouseButton1Click:Connect(function()
+        loadstring(TextBox.Text)()
+        Outputithink.Text = "[007n7]:Sucessfully Executed The Script!"
+    end)
+end
+coroutine.wrap(RLDMLYY_fake_script)()
+
+local function MSOQQK_fake_script() -- close.LocalScript 
+    local script = Instance.new('LocalScript', close)
+
+    local button = script.Parent
+    local frame = script.Parent.Parent
+    local userInputService = game:GetService("UserInputService")
+    local isFrameVisible = true
+    
+    local function onButtonClicked()
+        frame.Visible = false
+    end
+    
+    button.MouseButton1Click:Connect(onButtonClicked)
+
+
+
+    local function onKeyPress(input, gameProcessed)
+        if input.KeyCode == Enum.KeyCode.P then
+            isFrameVisible = not isFrameVisible
+            frame.Visible = isFrameVisible
+        end
+    end
+    
+    userInputService.InputBegan:Connect(onKeyPress)
+end
+coroutine.wrap(MSOQQK_fake_script)()
+
+local function XIYFWXN_fake_script() -- Remove.LocalScript 
+    local script = Instance.new('LocalScript', Remove)
+
+    script.Parent.MouseButton1Click:Connect(function()
+        ScreenGui:Destroy()
+    end)
+end
+coroutine.wrap(XIYFWXN_fake_script)()
+
+-- Settings button functionality
+local function SettingsButtonScript()
+    local script = Instance.new('LocalScript', Settings)
+    
+    script.Parent.MouseButton1Click:Connect(function()
+        ExecutorFrame.Visible = not ExecutorFrame.Visible
+        SettingsFrame.Visible = not SettingsFrame.Visible
+    end)
+end
+coroutine.wrap(SettingsButtonScript)()
+
+-- Script buttons functionality
+local function PolariaButtonScript()
+    local script = Instance.new('LocalScript', PolariaButton)
+    
+    script.Parent.MouseButton1Click:Connect(function()
+        loadstring(game:HttpGet("https://pastefy.app/agqEB2qs/raw",true))()
+    end)
+end
+coroutine.wrap(PolariaButtonScript)()
+
+local function STIGMAButtonScript()
+    local script = Instance.new('LocalScript', STIGMAButton)
+    
+    script.Parent.MouseButton1Click:Connect(function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-stigma-ultimate-29802"))()
+    end)
+end
+coroutine.wrap(STIGMAButtonScript)()
+
+local function LIGMAButtonScript()
+    local script = Instance.new('LocalScript', LIGMAButton)
+    
+    script.Parent.MouseButton1Click:Connect(function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Project-Lua-Inspired-by-Project-Ligma-26224"))()
+    end)
+end
+coroutine.wrap(LIGMAButtonScript)()
+
+-- New script buttons functionality in Executor frame
+local function InfiniteYieldScript()
+    local script = Instance.new('LocalScript', InfiniteYield)
+    
+    script.Parent.MouseButton1Click:Connect(function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+    end)
+end
+coroutine.wrap(LIGMAButtonScript)()
+
+-- New script buttons functionality in Executor frame
+local function projectScript()
+    local script = Instance.new('LocalScript', project)
+    
+    script.Parent.MouseButton1Click:Connect(function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/kvsna3545-pixel/Thank-you-project/refs/heads/main/Main"))()
+    end)
+end
+coroutine.wrap(InfiniteYieldScript)()
+
+local function ScriptPrivateScript()
+    local script = Instance.new('LocalScript', ScriptPrivate)
+    
+    script.Parent.MouseButton1Click:Connect(function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-1x-1x-1x-1x-1xSuper-private-gui-V5dot40-leak-by-me-36518"))()
+    end)
+end
+coroutine.wrap(ScriptPrivateScript)()
+
+local function LigmaV2Script()
+    local script = Instance.new('LocalScript', LigmaV2)
+    
+    script.Parent.MouseButton1Click:Connect(function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/MUfsexG1'))()
+    end)
+end
+coroutine.wrap(LigmaV2Script)()
