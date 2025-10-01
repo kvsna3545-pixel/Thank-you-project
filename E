@@ -411,7 +411,7 @@ local function projectScript()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/kvsna3545-pixel/Thank-you-project/refs/heads/main/Main"))()
     end)
 end
-coroutine.wrap(InfiniteYieldScript)()
+coroutine.wrap(projectScript)()
 
 local function ScriptPrivateScript()
     local script = Instance.new('LocalScript', ScriptPrivate)
