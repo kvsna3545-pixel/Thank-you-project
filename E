@@ -431,4 +431,4 @@ local function projectScript()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/kvsna3545-pixel/Thank-you-project/refs/heads/main/Main"))()
     end)
 end
-coroutine.wrap(projectScript)()
+coroutine.wrap(proButtonScript)()
