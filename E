@@ -126,6 +126,18 @@ LigmaV2.TextColor3 = Color3.fromRGB(255, 255, 255)
 LigmaV2.TextSize = 12.000
 LigmaV2.TextWrapped = true
 
+local proButton = Instance.new("TextButton")
+proButton.Name = "proButton"
+proButton.Parent = SettingsFrame
+proButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+proButton.BorderColor3 = Color3.fromRGB(124, 124, 124)
+proButton.Position = UDim2.new(0.1, 0, 0.66, 0)
+proButton.Size = UDim2.new(0.8, 0, 0.2, 0)
+proButton.Font = Enum.Font.SourceSans
+proButton.Text = "project"
+proButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+proButton.TextSize = 14.000
+
 TextBox.Parent = ExecutorFrame
 TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextBox.BorderColor3 = Color3.fromRGB(124, 124, 124)
@@ -282,19 +294,7 @@ LIGMAButton.Text = "LIGMA"
 LIGMAButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 LIGMAButton.TextSize = 14.000
 
-local proButton = Instance.new("TextButton")
-proButton.Name = "proButton"
-proButton.Parent = SettingsFrame
-proButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-proButton.BorderColor3 = Color3.fromRGB(124, 124, 124)
-proButton.Position = UDim2.new(0.1, 0, 1.1, 0)
-proButton.Size = UDim2.new(0.8, 0, 0.2, 0)
-proButton.Font = Enum.Font.SourceSans
-proButton.Text = "project"
-proButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-proButton.TextSize = 14.000
-
--- Scripts:
+Scripts:
 
 local function LXZFXVA_fake_script() -- Clear.LocalScript 
     local script = Instance.new('LocalScript', Clear)
