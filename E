@@ -128,7 +128,7 @@ LigmaV2.TextWrapped = true
 
 local proButton = Instance.new("TextButton")
 proButton.Name = "proButton"
-proButton.Parent = SettingsFrame
+proButton.Parent = FrameK
 proButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 proButton.BorderColor3 = Color3.fromRGB(124, 124, 124)
 proButton.Position = UDim2.new(0.1, 0, 0.66, 0)
@@ -137,6 +137,7 @@ proButton.Font = Enum.Font.SourceSans
 proButton.Text = "project"
 proButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 proButton.TextSize = 14.000
+proButton.TextWrapped
 
 TextBox.Parent = ExecutorFrame
 TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
