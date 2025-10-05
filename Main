@@ -25,6 +25,7 @@ wait(1)
 print("################################")
 print("########### 〔welcome〕 #########") 
 print("#########〔by kvsna3545〕########")
+print("################################")
 wait(1.5) 
 game.StarterGui:SetCore("DevConsoleVisible", false)
 
