@@ -10,7 +10,7 @@ print("Loading bypass...")
 wait(4) 
 print("Download bypass complete!!!!")
 wait(2) 
-print("Loading Thank you Project Gui v7.10") 
+print("Loading Thank you Project Gui v10.90") 
 wait(3) 
 print("Downloading script...") 
 wait(3) 
@@ -39,19 +39,19 @@ wait(0.9)
 print("💥💥💥Downloading Complete💥💥💥") 
 wait(1) 
 print("################################")
-wait(1)
+wait(0.5)
 print("########### 〔welcome〕 #########") 
-wait(1)
+wait(0.5)
 print("#########〔by kvsna3545〕########")
-wait(1)
+wait(0.5)
 print("################################")
-wait(1.5) 
+wait(2) 
 print("Let's go")
 wait(0.8)
 game.StarterGui:SetCore("DevConsoleVisible", false)
 
 local gui = Instance.new("ScreenGui")
-gui.Name = "Private Gui"
+gui.Name = "thank you Project Gui"
 gui.Parent = game:GetService("CoreGui")
 
 local Ui = Instance.new("Frame")
@@ -70,7 +70,7 @@ TextLabel.Position = UDim2.new(0, 0, 0, 0)
 TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderColor3 = Color3.new(1, 999, 1)
 TextLabel.BorderSizePixel = 3
-TextLabel.Text = "Thank you Project Upgrade V.10.9"
+TextLabel.Text = "Thank you Project Upgrade V.10.90"
 TextLabel.TextColor3 = Color3.new(255, 255, 255)
 TextLabel.TextScaled = true
 TextLabel.Font = Enum.Font.Code
@@ -242,9 +242,9 @@ local scripts = {
     {"project204433514", "https://raw.githubusercontent.com/gitezgitgit/Project-2044033514/refs/heads/main/Project%2044033514.lua.txt"},
     {"project ligma Remake", "https://raw.githubusercontent.com/gitezgitgit/Project-Ligma-Remake/refs/heads/main/ProjectLigmaRemakeObfuscated.txt"},
     {"Grandosla", "https://pastefy.app/Kql9VClT/raw"},
-    {"NAME SCRIPT", "a"},
-    {"NAME SCRIPT", "a"},
-    {"NAME SCRIPT", "a"},
+    {"Red Sword", "https://raw.githubusercontent.com/ProBypasserHax1/Idkkk/refs/heads/main/Red%20Sword%20Pickaxe.txt"},
+    {"sugma_v1","https://raw.githubusercontent.com/sigmaballs4141/asd/refs/heads/main/Sugma%20V1.txt"},
+    {"Ban Hammer", "https://raw.githubusercontent.com/nicolasbarbosa323/ban-hammer/refs/heads/main/ban"},
     {"NAME SCRIPT", "a"},
     {"NAME SCRIPT", "a"},
     {"NAME SCRIPT", "a"},
@@ -369,7 +369,7 @@ local function loadPage()
         nextBtn.Size = UDim2.new(0, 80, 0, 28)
         nextBtn.Text = "Next"
         nextBtn.TextColor3 = Color3.new(0, 0, 0)
-        nextBtn.BackgroundColor3 = Color3.fromRGB(245, 245.245)
+        nextBtn.BackgroundColor3 = Color3.fromRGB(245, 245, 245)
         nextBtn.BorderColor3 = Color3.new(1, 999, 1)
         nextBtn.BorderSizePixel = 1
         nextBtn.Font = Enum.Font.Legacy
