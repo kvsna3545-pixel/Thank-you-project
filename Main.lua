@@ -65,10 +65,10 @@ TextLabel.Position = UDim2.new(0, 0, 0, 0)
 TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderColor3 = Color3.new(1, 999, 1)
 TextLabel.BorderSizePixel = 3
-TextLabel.Text = "Thank you Project"
+TextLabel.Text = "Thank you Project Upgrade V.10.9"
 TextLabel.TextColor3 = Color3.new(255, 255, 255)
 TextLabel.TextScaled = true
-TextLabel.Font = Enum.Font.Legacy
+TextLabel.Font = Enum.Font.Code
 TextLabel.Parent = Ui
 
 local page = 1
@@ -234,9 +234,9 @@ local scripts = {
     {"spawn1020", "https://pastebin.com/raw/PgxctSd6"},
     {"scipt op", "https://pastefy.app/GiEm6AH8/raw"},
     {"hacking", "https://raw.githubusercontent.com/kvsna3545-pixel/Thank-you-project/refs/heads/main/1"},
-    {"NAME SCRIPT", "a"},
-    {"NAME SCRIPT", "a"},
-    {"NAME SCRIPT", "a"},
+    {"project204433514", "https://raw.githubusercontent.com/gitezgitgit/Project-2044033514/refs/heads/main/Project%2044033514.lua.txt"},
+    {"project ligma Remake", "https://raw.githubusercontent.com/gitezgitgit/Project-Ligma-Remake/refs/heads/main/ProjectLigmaRemakeObfuscated.txt"},
+    {"Grandosla", "https://pastefy.app/Kql9VClT/raw"},
     {"NAME SCRIPT", "a"},
     {"NAME SCRIPT", "a"},
     {"NAME SCRIPT", "a"},
@@ -251,7 +251,7 @@ local scripts = {
     {"NAME SCRIPT", ""},
     {"NAME SCRIPT", "a"},
     {"NAME SCRIPT", "a"},
-    {"NAME SCRIPT", "A"},
+    {"NAME SCRIPT", "a"},
     {"NAME SCRIPT", "a"},
     {"NAME SCRIPT", "a"},
     {"NAME SCRIPT", "a"},
@@ -268,9 +268,9 @@ local scripts = {
     {"NAME SCRIPT.", "a"},
     {"name script", "a"},
     {"NAME SCRIPT", "a"},
-    {"NAME SCRIPT", "aXD"},
     {"NAME SCRIPT", "a"},
-    {"NAME SCRIPT", "A"},
+    {"NAME SCRIPT", "a"},
+    {"NAME SCRIPT", "a"},
     {"NAME SCRIPT", "a"},
     {"NAME SCRIPT", "a"},
     {"NAME SCRIPT", "a"},
