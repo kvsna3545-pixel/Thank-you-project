@@ -10,7 +10,7 @@ print("Loading bypass...")
 wait(4) 
 print("Download bypass complete!!!!")
 wait(2) 
-print("Loading Thank you Project Gui v10.90") 
+print("Loading Thank you Project Gui v11.1") 
 wait(3) 
 print("Downloading script...") 
 wait(3) 
@@ -44,7 +44,7 @@ print("########### 〔welcome〕 #########")
 wait(0.5)
 print("#########〔by kvsna3545〕########")
 wait(0.5)
-print("tiktok 0.01 script##############")
+print("tiktok @0.01 script#############")
 wait(2) 
 print("Let's go")
 wait(0.8)
@@ -70,7 +70,7 @@ TextLabel.Position = UDim2.new(0, 0, 0, 0)
 TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderColor3 = Color3.new(1, 999, 1)
 TextLabel.BorderSizePixel = 3
-TextLabel.Text = "Thank you Project Upgrade V.10.90"
+TextLabel.Text = "Thank you Project Upgrade V.11.1"
 TextLabel.TextColor3 = Color3.new(255, 255, 255)
 TextLabel.TextScaled = true
 TextLabel.Font = Enum.Font.Code
