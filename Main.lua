@@ -38,13 +38,13 @@ print("💥『[########100%]』💥")
 wait(0.9)
 print("💥💥💥Downloading Complete💥💥💥") 
 wait(10) 
-print("##############################################№.")
-print("############### 〔welcome〕 ###################№.") 
-print("##############〔by kvsna3545〕#################№.")
-print("############tiktok @0.01 script###############№.")
-print("##############################################№.")
+print("##############################################.")
+print("############### 〔welcome〕 ###################.") 
+print("##############〔by kvsna3545〕#################.")
+print("###########〔tiktok @0.01 script〕#############.")
+print("##############################################.")
 wait(4) 
-print("Let's go")
+print("Let's go bro")
 wait(0.8)
 game.StarterGui:SetCore("DevConsoleVisible", false)
 
@@ -110,7 +110,7 @@ local scripts = {
     {"PEE LUA", "https://raw.githubusercontent.com/gitezgitgit/Pee/refs/heads/main/PeeScript.lua"},
     {"DOMINANT 1.0.0.0 BY JOX", "https://pastefy.app/Ysng6BeD/raw?part= Dominant%20Executor%20by%20 jox%20inspire%20in%20epik"},
     {"HEROBRINE JUMPSCARE", "https://pastefy.app/Rfpe0mkO/raw"},
-    {"EPIKGUY V1🤑", "https://pastebin.com/raw/MJhyLPu9"},
+    {"EPIKGUY V1", "https://pastebin.com/raw/MJhyLPu9"},
     {"JOX V5.6 GUI", "https://pastefy.app/3ZSMrM2X/raw"},
     {"RURUXPLOIT V7.0","https://pastebin.com/raw/zQGANnnQ"},
     {"1X1X1 FE GUI", "https://raw.githubusercontent.com/GRAVEBUSTER0/GRAVEBUSTER0/main/New.lua"},
@@ -124,7 +124,7 @@ local scripts = {
     {"Stummy Guns","https://pastebin.com/raw/3XPaYv08"},
     {"bipolaria","https://pastebin.com/raw/tE127sKS"},
     {"NEXUS X","https://fromhatai.neocities.org/Private/NexusX.lua"},
-    {"EPIKGUY V1 scripts 👉","a"},
+    {"SSSP","https://raw.githubusercontent.com/kvsna3545-pixel/Hacker_Project_1/refs/heads/main/Super_SSP_BY_KVSNA3545"},
     {"Elsyian Executor","https://pastebin.com/raw/CsFAQyXr"},
     {"Anonymous Particlez","particle"},
     {"NOOB GIANT CANNONER","https://raw.githubusercontent.com/gitezgitgit/rare-scripts/refs/heads/main/Cannoneer%20Noob.txt"},
@@ -147,7 +147,7 @@ local scripts = {
     {"Super Private Gui by Sigmaz","https://raw.githubusercontent.com/Hanif290/SigmaHubV2/refs/heads/main/SigmaHubV2"},
     {"Private Gui by Hanif","https://raw.githubusercontent.com/Hanif290/SigmaHub/refs/heads/main/SigmaHub"},
     {"Sigma Gui (Private GUI)","https://pastes.io/raw/private-53"},
-    {"scripts no of EPIKGUY👉","a"},
+    {"no scripts","a"},
     {"Private Gui by 005n5n77 1.5","https://pastebin.com/raw/9XSYjVrm"},
     {"1x1x1x1x1 Super Private Gui v5.40","https://pastebin.com/raw/ERRk4rvM"},
     {"1x1x1x1x1 Ultimate Private Gui v7.10", "https://pastefy.app/tsPrm5Ky/raw"},
@@ -248,10 +248,10 @@ local scripts = {
     {"Thomas The Dank Engine","https://raw.githubusercontent.com/Sugm4Bullet1/LuaXXccL/refs/heads/main/Thomas"},
     {"Project Duck Ultimate","https://pastefy.app/RX1PYZs1/raw"},
     {"project baller", "https://pastefy.app/t6W9lM9x/raw"},
-    {"NAME SCRIPT", "a"},
-    {"NAME SCRIPT", "a"},
-    {"NAME SCRIPT", "a"},
-    {"NAME SCRIPT", ""},
+    {"fe (no script for you)", "https://pastefy.app/3iQyEDbH/rw"},
+    {"PROJECT secret", "https://pastefy.app/3FJWjzxE/raw"},
+    {"FEBYPASS SSP", "https://pastefy.app/t2gUwfXy/raw"},
+    {"Proximity 15 (Key Proximity6H)", "https://raw.githubusercontent.com/HyperionV8/Proximity-Private-Hub/refs/heads/main/obfuscated_script-1745069419608.lua.txt"},
     {"NAME SCRIPT", "a"},
     {"NAME SCRIPT", "a"},
     {"NAME SCRIPT", "a"},
