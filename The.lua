@@ -33,7 +33,7 @@ local scripts={
 {"a random skybox.txt", "https://pastebin.com/raw/HhAWecgC"},
     {"Anonymous Particles.txt", "https://pastebin.com/raw/ze0Z8dQr"},
     {"Assassin.txt", "https://pastebin.com/raw/25vEc1c9"},
-    {"baseplate + tp all.txt", ""}
+    {"baseplate + tp all.txt", "https://pastebin.com/raw/dyS9xH4b"}
 
 }
 
