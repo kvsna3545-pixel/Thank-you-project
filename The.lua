@@ -34,6 +34,20 @@ local scripts={
     {"Anonymous Particles.txt", "https://pastebin.com/raw/ze0Z8dQr"},
     {"Assassin.txt", "https://pastebin.com/raw/25vEc1c9"},
     {"baseplate + tp all.txt", "https://pastebin.com/raw/dyS9xH4b"}
+    {"Billboard Text.txt", "https://pastebin.com/raw/d6yAnJkY"},
+    {"Bomb vest.txt", "https://pastebin.com/raw/tn83v6pH"},
+{"c00lgui reborn.txt (soon)", ""},
+{"c00lkidd combo.txt (soon)", ""},
+{"c00lkidd decal.txt (soon)", ""},
+{"c00lkidd skybox.txt (soon)", ""},
+{"c00lkidd theme.txt (soon)", ""},
+{"c00lkidd theme 2.txt (soon)", ""},
+{"", ""},
+{"", ""},
+{"", ""},
+{"", ""},
+{"", ""},
+{"", ""},
 
 }
 
