@@ -18,7 +18,7 @@ TextLabel.Position=UDim2.new(0,0,0,0)
 TextLabel.BackgroundColor3=Color3.fromRGB(0,0,0)
 TextLabel.BorderColor3=Color3.new(0,255,255)
 TextLabel.BorderSizePixel=3
-TextLabel.Text="Project Segma V4"
+TextLabel.Text="Project Segma V4 Made by kvsna3545"
 TextLabel.TextColor3=Color3.new(255,255,255)
 TextLabel.TextScaled=true
 TextLabel.Font=Enum.Font.Legacy
@@ -28,20 +28,36 @@ local page=1
 local perPage=12
 
 local scripts={
+
 {"1×1×1's Revenge. txt", "https://pastebin.com/raw/wY7CDhNC"},
+    
 {"666.txt", "https://pastebin.com/raw/yWgTKTB9"},
+    
 {"a random skybox.txt", "https://pastebin.com/raw/HhAWecgC"},
+    
 {"Anonymous Particles.txt", "https://pastebin.com/raw/ze0Z8dQr"},
+    
 {"Assassin.txt", "https://pastebin.com/raw/25vEc1c9"},
+    
 {"baseplate + tp all.txt", "https://pastebin.com/raw/dyS9xH4b"}
+    
 {"Billboard Text.txt", "https://pastebin.com/raw/d6yAnJkY"},
+    
 {"Bomb vest.txt", "https://pastebin.com/raw/tn83v6pH"},
+    
 {"c00lgui reborn(no fe).txt", "https://raw.githubusercontent.com/kvsna3545-pixel/-/refs/heads/main/c00lgui%20reborn(not%20fe).txt"},
+    
 {"c00lkidd decal.txt", "https://pastebin.com/raw/izT9bJsQ"},
+    
 {"c00lkidd skybox.txt", "https://pastebin.com/raw/KQEJBP3a"},
+    
 {"c00lkidd theme.txt", "https://pastebin.com/raw/9q7qdVjv"},
+    
 {"c00lkidd theme 2.txt", "https://pastebin.com/raw/GEX824P1"},
+    
 {"", ""},
+
+
 
 }
 
