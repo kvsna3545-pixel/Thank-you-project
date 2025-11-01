@@ -44,20 +44,18 @@ local scripts={
 {"Billboard Text.txt", "https://pastebin.com/raw/d6yAnJkY"},
     
 {"Bomb vest.txt", "https://pastebin.com/raw/tn83v6pH"},
-    
-{"c00lgui reborn(no fe).txt", "https://raw.githubusercontent.com/kvsna3545-pixel/-/refs/heads/main/c00lgui%20reborn(not%20fe).txt"},
-    
-{"c00lkidd decal.txt", "https://pastebin.com/raw/izT9bJsQ"},
-    
-{"c00lkidd skybox.txt", "https://pastebin.com/raw/KQEJBP3a"},
-    
-{"c00lkidd theme.txt", "https://pastebin.com/raw/9q7qdVjv"},
-    
-{"c00lkidd theme 2.txt", "https://pastebin.com/raw/GEX824P1"},
-    
-{"", ""},
 
+{"no c00lgui Because of an unexpected event", ""},
+    
+{"CombatKnife.txt", "https://pastebin.com/raw/gNa5DY4r"},
 
+{"Control.txt", "https://pastebin.com/raw/b1ktKM3Q"},
+
+{"Dev Uzi.txt", "https://pastebin.com/raw/5AZ41mjX"},
+
+{"Dual Pistons.txt", "https://pastebin.com/raw/75EcMS3n"},
+
+{"Fencing Restore.txt", "https://pastebin.com/raw/2Dm6cjKP"},
 
 }
 
