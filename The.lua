@@ -170,7 +170,7 @@ R.BackgroundTransparency = 1.000
 R.Position = UDim2.new(0.45430705, 0, 0.430432826, 0)
 R.Size = UDim2.new(0, 110, 0, 110)
 R.ZIndex = 3
-R.Image = "http://www.roblox.com/asset/?id=0"
+R.Image = "http://www.roblox.com/asset/?id=129541861152547"
 R.SliceScale = 3.000
 
 Earth.Name = "Earth"
