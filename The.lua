@@ -31,6 +31,20 @@ local scripts={
 {"1×1×1's Revenge. txt", "https://pastebin.com/raw/wY7CDhNC"}, {"666.txt", "https://pastebin.com/raw/yWgTKTB9"}, {"a random skybox.txt", "https://pastebin.com/raw/HhAWecgC"}, {"Anonymous Particles.txt", "https://pastebin.com/raw/ze0Z8dQr"}, {"Assassin.txt", "https://pastebin.com/raw/25vEc1c9"},{"baseplate + tp all.txt", "https://pastebin.com/raw/dyS9xH4b"},
 {"Billboard Text", "https://pastebin.com/raw/d6yAnJkY"}, {"Bomb vest", "https://pastebin.com/raw/tn83v6pH"}, {"no c00lgui Because of an unexpected event", ""}, {"CombatKnife", "https://pastebin.com/raw/gNa5DY4r"}, {"Control", "https://pastebin.com/raw/b1ktKM3Q"},{"Dev Uzi", "https://pastebin.com/raw/5AZ41mjX"},{"Dual Pistons", "https://pastebin.com/raw/75EcMS3n"},
 {"Fencing Restore", "https://pastebin.com/raw/2Dm6cjKP"},
+{"c00lgui reborn (no fe)", "https://raw.githubusercontent.com/kvsna3545-pixel/-/refs/heads/main/c00lgui%20reborn(not%20fe).txt"},
+{"c00lkidd combo (a bit broken).txt", "https://pastebin.com/raw/wY7CDhNC"},
+{"c00lkidd decal.txt", "https://pastebin.com/raw/ze0Z8dQr"},
+{"c00lkidd skybox.txt", "https://pastebin.com/raw/HhAWecgC"},
+{"c00lkidd theme", "https://pastebin.com/raw/ze0Z8dQr"},
+{"fly tool(soon)", ""},
+{"g00byd0lan decal (soon)", ""}
+{"Glock(soon)", ""}
+{"Grab Knife(soon)", ""}
+{"Hint(soon)", ""}
+{"soon", ""}
+{"soon", ""}
+{"soon", ""}
+
 }
 
 local totalPages=math.ceil(#scripts/perPage)
