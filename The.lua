@@ -28,7 +28,6 @@ local page=1
 local perPage=12
 
 local scripts={
-
 {"1×1×1's Revenge. txt", "https://pastebin.com/raw/wY7CDhNC"},
     
 {"666.txt", "https://pastebin.com/raw/yWgTKTB9"},
@@ -41,22 +40,21 @@ local scripts={
     
 {"baseplate + tp all.txt", "https://pastebin.com/raw/dyS9xH4b"}
     
-{"Billboard Text.txt", "https://pastebin.com/raw/d6yAnJkY"},
+{"Billboard Text", "https://pastebin.com/raw/d6yAnJkY"},
     
-{"Bomb vest.txt", "https://pastebin.com/raw/tn83v6pH"},
+{"Bomb vest", "https://pastebin.com/raw/tn83v6pH"},
 
 {"no c00lgui Because of an unexpected event", ""},
     
-{"CombatKnife.txt", "https://pastebin.com/raw/gNa5DY4r"},
+{"CombatKnife", "https://pastebin.com/raw/gNa5DY4r"},
 
-{"Control.txt", "https://pastebin.com/raw/b1ktKM3Q"},
+{"Control", "https://pastebin.com/raw/b1ktKM3Q"},
 
-{"Dev Uzi.txt", "https://pastebin.com/raw/5AZ41mjX"},
+{"Dev Uzi", "https://pastebin.com/raw/5AZ41mjX"},
 
-{"Dual Pistons.txt", "https://pastebin.com/raw/75EcMS3n"},
+{"Dual Pistons", "https://pastebin.com/raw/75EcMS3n"},
 
-{"Fencing Restore.txt", "https://pastebin.com/raw/2Dm6cjKP"},
-
+{"Fencing Restore", "https://pastebin.com/raw/2Dm6cjKP"},
 }
 
 local totalPages=math.ceil(#scripts/perPage)
