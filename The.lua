@@ -37,13 +37,13 @@ local scripts={
 {"c00lkidd skybox.txt", "https://pastebin.com/raw/HhAWecgC"},
 {"c00lkidd theme", "https://pastebin.com/raw/ze0Z8dQr"},
 {"fly tool(soon)", ""},
-{"g00byd0lan decal (soon)", ""}
-{"Glock(soon)", ""}
-{"Grab Knife(soon)", ""}
-{"Hint(soon)", ""}
-{"soon", ""}
-{"soon", ""}
-{"soon", ""}
+{"g00byd0lan decal (soon)", ""},
+{"Glock(soon)", ""},
+{"Grab Knife(soon)", ""},
+{"Hint(soon)", ""},
+{"soon", ""},
+{"soon", ""},
+{"soon", ""},
 
 }
 
