@@ -46,9 +46,9 @@ local scripts={
 {"c00lkidd skybox.txt", "https://raw.githubusercontent.com/kvsna3545-pixel/c00lkidd/refs/heads/main/Skybox"},
 {"c00lkidd theme", "https://raw.githubusercontent.com/kvsna3545-pixel/c00lkidd/refs/heads/main/Theme"},
 {"c00lkidd theme2", "https://raw.githubusercontent.com/kvsna3545-pixel/c00lkidd/refs/heads/main/Theme2"},
-{"g00byd0lan decal (soon)", ""},
-{"Glock(soon)", ""},
-{"Grab Knife(soon)", ""},
+{"g00byd0lan decal", "https://pastebin.com/raw/ivkM1nbX"},
+{"Glock", "https://pastebin.com/raw/pw0c2x7M"},
+{"Grab Knife v4", "https://raw.githubusercontent.com/kvsna3545-pixel/Scripts/refs/heads/main/Grab%20Knife%20V4.txt"},
 }
 
 local totalPages=math.ceil(#scripts/perPage)
