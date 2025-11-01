@@ -37,7 +37,7 @@ local scripts={
     {"Billboard Text.txt", "https://pastebin.com/raw/d6yAnJkY"},
     {"Bomb vest.txt", "https://pastebin.com/raw/tn83v6pH"},
 {"c00lgui reborn(no fe).txt", "https://raw.githubusercontent.com/kvsna3545-pixel/-/refs/heads/main/c00lgui%20reborn(not%20fe).txt"},
-{"c00lkidd combo(a bit broken).txt", ""},
+{"c00lkidd combo(a bit broken).txt(soon)", ""},
 {"c00lkidd decal.txt", "https://pastebin.com/raw/izT9bJsQ"},
 {"c00lkidd skybox.txt", "https://pastebin.com/raw/KQEJBP3a"},
 {"c00lkidd theme.txt", "https://pastebin.com/raw/9q7qdVjv"},
