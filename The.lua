@@ -29,7 +29,7 @@ local perPage=12
 
 local scripts={
 {"1×1×1's Revenge. txt", "https://pastebin.com/raw/wY7CDhNC"},
-{"666.txt", "https://pastebin.com/raw/yWgTKTB9"},
+{"666.txt", "https://pastebin.com/raw/yj8rPhAV"},
     {"a random skybox.txt", "https://pastebin.com/raw/HhAWecgC"},
     {"Anonymous Particles.txt", "https://pastebin.com/raw/ze0Z8dQr"},
     {"Assassin.txt", "https://pastebin.com/raw/25vEc1c9"},
