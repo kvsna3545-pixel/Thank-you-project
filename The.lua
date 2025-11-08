@@ -164,7 +164,7 @@ trajectory.BackgroundTransparency = 1.000
 trajectory.Position = UDim2.new(0.45430705, 0, 0.430432826, 0)
 trajectory.Size = UDim2.new(0, 110, 0, 110)
 trajectory.Image = "http://www.roblox.com/asset/?id=96455685755070"
-trajectory.SliceScale = 3.000
+trajectory.SliceScale = 5.000
 
 R.Name = "R"
 R.Parent = StigmanFroud
@@ -205,7 +205,7 @@ local function AARC_fake_script()
 	local img = script.Parent
 	local sonic = script.Parent
 	
-	img:TweenPosition(UDim2.new(0.451, 0, 0.395, 0), "Out", "Linear", 0.4, false)
+	img:TweenPosition(UDim2.new(0.451, 0, 0.395, 0), "Out", "Linear", 0.5, false)
 	wait(3)
 	img:TweenPosition(UDim2.new(0.005, 0, 0.619, 0), "Out", "Sine", 0.7, false)
 	
@@ -238,7 +238,7 @@ local function XBQODE_fake_script()
 	local script = Instance.new('LocalScript', R)
 	local img = script.Parent
 	
-	img:TweenPosition(UDim2.new(0.451, 0, 0.395, 0), "Out", "Linear", 0.4, false)
+	img:TweenPosition(UDim2.new(0.451, 0, 0.395, 0), "Out", "Linear", 0.5, false)
 	wait(3)
 	img:TweenPosition(UDim2.new(0.005, 0, 0.619, 0), "Out", "Sine", 0.7, false)
 end
@@ -272,7 +272,7 @@ local function UDIRPT_fake_script()
 	local script = Instance.new('LocalScript', Green)
 	local img = script.Parent
 	
-	img:TweenPosition(UDim2.new(0.451, 0, 0.395, 0), "Out", "Linear", 0.4, false)
+	img:TweenPosition(UDim2.new(0.451, 0, 0.395, 0), "Out", "Linear", 0.5, false)
 	wait(3)
 	img:TweenPosition(UDim2.new(0.005, 0, 0.619, 0), "Out", "Sine", 0.7, false)
 end
