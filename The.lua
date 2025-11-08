@@ -49,6 +49,9 @@ local scripts={
 {"g00byd0lan decal", "https://pastebin.com/raw/ivkM1nbX"},
 {"Glock", "https://pastebin.com/raw/pw0c2x7M"},
 {"Grab Knife v4", "https://raw.githubusercontent.com/kvsna3545-pixel/Scripts/refs/heads/main/Grab%20Knife%20V4.txt"},
+{"", ""},
+{"", ""},
+{"", ""},
 }
 
 local totalPages=math.ceil(#scripts/perPage)
@@ -160,7 +163,7 @@ trajectory.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 trajectory.BackgroundTransparency = 1.000
 trajectory.Position = UDim2.new(0.45430705, 0, 0.430432826, 0)
 trajectory.Size = UDim2.new(0, 110, 0, 110)
-trajectory.Image = "http://www.roblox.com/asset/?id=80500597396276"
+trajectory.Image = "http://www.roblox.com/asset/?id=96455685755070"
 trajectory.SliceScale = 3.000
 
 R.Name = "R"
@@ -170,7 +173,7 @@ R.BackgroundTransparency = 1.000
 R.Position = UDim2.new(0.45430705, 0, 0.430432826, 0)
 R.Size = UDim2.new(0, 110, 0, 110)
 R.ZIndex = 3
-R.Image = "http://www.roblox.com/asset/?id=129541861152547"
+R.Image = "http://www.roblox.com/asset/?id=135577320412248"
 R.SliceScale = 3.000
 
 Earth.Name = "Earth"
@@ -193,7 +196,7 @@ Green.BorderSizePixel = 0
 Green.Position = UDim2.new(0.00499999989, 0, 0.824999988, 0)
 Green.Size = UDim2.new(0, 110, 0, 110)
 Green.ZIndex = 6
-Green.Image = "rbxassetid://129541861152547"
+Green.Image = "rbxassetid://135577320412248"
 Green.ImageTransparency = 1.000
 
 -- Animation for trajectory (rotating)
