@@ -1,3 +1,4 @@
+-- by kvsna3545 ok?
 local gui=Instance.new("ScreenGui")
 gui.Name="Private Gui"
 gui.Parent=game:GetService("CoreGui")
