@@ -148,6 +148,7 @@ local function loadPage()
     nextBtn.Visible=page<totalPages
 end
 
+
 local StigmanFroud = Instance.new("ScreenGui")
 local trajectory = Instance.new("ImageLabel")
 local R = Instance.new("ImageLabel")
