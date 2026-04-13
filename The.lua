@@ -94,7 +94,7 @@ local function loadPage()
                     local torso=char:FindFirstChild("Torso")or char:FindFirstChild("UpperTorso")
                     if torso then
                         local pe=Instance.new("ParticleEmitter")
-                        pe.Texture="http://www.roblox.com/asset/?id=127476787"
+                        pe.Texture="http://www.roblox.com/asset/?id=73185495890754"
                         pe.VelocitySpread=60
                         pe.Parent=torso
                     end
@@ -166,7 +166,7 @@ trajectory.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 trajectory.BackgroundTransparency = 1.000
 trajectory.Position = UDim2.new(0.45430705, 0, 0.430432826, 0)
 trajectory.Size = UDim2.new(0, 110, 0, 110)
-trajectory.Image = "http://www.roblox.com/asset/?id=0"
+trajectory.Image = "http://www.roblox.com/asset/?id=73185495890754"
 trajectory.SliceScale = 5.000
 
 R.Name = "R"
@@ -176,7 +176,7 @@ R.BackgroundTransparency = 1.000
 R.Position = UDim2.new(0.45430705, 0, 0.430432826, 0)
 R.Size = UDim2.new(0, 110, 0, 110)
 R.ZIndex = 3
-R.Image = "http://www.roblox.com/asset/?id=130129439950925"
+R.Image = "http://www.roblox.com/asset/?id=73185495890754"
 R.SliceScale = 3.000
 
 Earth.Name = "Earth"
