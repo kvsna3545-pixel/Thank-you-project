@@ -50,9 +50,11 @@ local scripts={
 {"g00byd0lan decal", "https://pastebin.com/raw/ivkM1nbX"},
 {"Glock", "https://pastebin.com/raw/pw0c2x7M"},
 {"Grab Knife v4", "https://raw.githubusercontent.com/kvsna3545-pixel/Scripts/refs/heads/main/Grab%20Knife%20V4.txt"},
-{"", ""},
-{"", ""},
-{"", ""},
+    {"SSP","https://pastefy.app/t2gUwfXy/raw"},
+    {"PROJECT BALLER","https://gist.githubusercontent.com/gagaamza/d5c91e99f7f31e450817c73de16f7e38/raw/855e5a40280cbeb5369d6c8c22243b0c35e9e735/gistfile1.txt"},
+    {"PROJECT TEGMA","https://pastefy.app/iF7TCeZw/raw"},
+    {"PROJECT 007N7","https://pastebin.com/raw/v0hzsfEV"},
+    {"PROJECT 007n7 TXT","https://pastebin.com/raw/fYQCCQ3v"},
 }
 
 local totalPages=math.ceil(#scripts/perPage)
