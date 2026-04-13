@@ -148,147 +148,58 @@ local function loadPage()
     nextBtn.Visible=page<totalPages
 end
 
-local StigmanFroud = Instance.new("ScreenGui")
-local trajectory = Instance.new("ImageLabel")
-local R = Instance.new("ImageLabel")
-local Earth = Instance.new("ImageLabel")
-local Green = Instance.new("ImageLabel")
+-- Rotating Logo (Draggable + Toggle GUI)
+local RotatingLogo = Instance.new("ImageButton")
+RotatingLogo.Name = "RotatingLogo"
+RotatingLogo.Size = UDim2.new(0, 100, 0, 100)
+RotatingLogo.Position = UDim2.new(0.5, -50, 0.5, -50)
+RotatingLogo.BackgroundTransparency = 1
+RotatingLogo.Image = "rbxassetid://73185495890754"
+RotatingLogo.Active = true
+RotatingLogo.Draggable = true
+RotatingLogo.Parent = ScreenGui
 
-StigmanFroud.Name = "Stigman Froud"
-StigmanFroud.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-StigmanFroud.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-StigmanFroud.DisplayOrder = 999
-StigmanFroud.ResetOnSpawn = false
+-- Make rotating logo circular
+local LogoCorner = Instance.new("UICorner")
+LogoCorner.CornerRadius = UDim.new(1, 0)
+LogoCorner.Parent = RotatingLogo
 
-trajectory.Name = "trajectory"
-trajectory.Parent = StigmanFroud
-trajectory.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-trajectory.BackgroundTransparency = 1.000
-trajectory.Position = UDim2.new(0.45430705, 0, 0.430432826, 0)
-trajectory.Size = UDim2.new(0, 110, 0, 110)
-trajectory.Image = "http://www.roblox.com/asset/?id=73185495890754"
-trajectory.SliceScale = 5.000
+-- Orbiting Small Images
+local orbitingImages = {}
+local numOrbits = 1
+local orbitRadius = 70
 
-R.Name = "R"
-R.Parent = StigmanFroud
-R.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-R.BackgroundTransparency = 1.000
-R.Position = UDim2.new(0.45430705, 0, 0.430432826, 0)
-R.Size = UDim2.new(0, 110, 0, 110)
-R.ZIndex = 3
-R.Image = "http://www.roblox.com/asset/?id=73185495890754"
-R.SliceScale = 3.000
-
-Earth.Name = "Earth"
-Earth.Parent = R
-Earth.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Earth.BackgroundTransparency = 1.000
-Earth.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Earth.BorderSizePixel = 0
-Earth.Position = UDim2.new(0.404999346, 0, 0.406818181, 0)
-Earth.Size = UDim2.new(0, 20, 0, 20)
-Earth.ZIndex = 4
-Earth.Image = "rbxassetid://0"
-
-Green.Name = "Green"
-Green.Parent = StigmanFroud
-Green.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Green.BackgroundTransparency = 1.000
-Green.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Green.BorderSizePixel = 0
-Green.Position = UDim2.new(0.00499999989, 0, 0.824999988, 0)
-Green.Size = UDim2.new(0, 110, 0, 110)
-Green.ZIndex = 6
-Green.Image = "rbxassetid://135577320412248"
-Green.ImageTransparency = 1.000
-
--- Animation for trajectory (rotating)
-local function AARC_fake_script()
-	local script = Instance.new('LocalScript', trajectory)
-	local img = script.Parent
-	local sonic = script.Parent
-	
-	img:TweenPosition(UDim2.new(0.451, 0, 0.395, 0), "Out", "Linear", 0.5, false)
-	wait(3)
-	img:TweenPosition(UDim2.new(0.005, 0, 0.619, 0), "Out", "Sine", 0.7, false)
-	
-	while true do
-		wait(0.01)
-		sonic.Rotation = sonic.Rotation + 0.3
-	end
-end
-coroutine.wrap(AARC_fake_script)()
-
--- Animation for Earth (orbiting)
-local function LQERQ_fake_script()
-	local script = Instance.new('LocalScript', Earth)
-	local Angle = 0
-	local AngleIncrement = 0.02
-	local OriginPos = script.Parent.Position
-	local Distance = 55
-	
-	while wait() do
-		Angle = Angle + AngleIncrement
-		local dirX = math.cos(Angle)
-		local dirY = math.sin(Angle)
-		script.Parent.Position = OriginPos + UDim2.new(0, dirX * Distance, 0, dirY * Distance)
-	end
-end
-coroutine.wrap(LQERQ_fake_script)()
-
--- Animation for R (tween in and down)
-local function XBQODE_fake_script()
-	local script = Instance.new('LocalScript', R)
-	local img = script.Parent
-	
-	img:TweenPosition(UDim2.new(0.451, 0, 0.395, 0), "Out", "Linear", 0.5, false)
-	wait(3)
-	img:TweenPosition(UDim2.new(0.005, 0, 0.619, 0), "Out", "Sine", 0.7, false)
-end
-coroutine.wrap(XBQODE_fake_script)()
-
--- Blinking Green effect
-local function NSHDR_fake_script()
-	local script = Instance.new('LocalScript', Green)
-	local Tween = game:GetService("TweenService")
-	local Greenfn = script.Parent
-	wait(2)
-	while true do
-		local TranspncyTween = Tween:Create(Greenfn, TweenInfo.new(0.5), {ImageTransparency = 0})
-		TranspncyTween:Play()
-		wait(0.3)
-		TranspncyTween = Tween:Create(Greenfn, TweenInfo.new(0.5), {ImageTransparency = 1})
-		TranspncyTween:Play()
-		wait(0.3)
-		TranspncyTween = Tween:Create(Greenfn, TweenInfo.new(0.5), {ImageTransparency = 0})
-		TranspncyTween:Play()
-		wait(0.3)
-		TranspncyTween = Tween:Create(Greenfn, TweenInfo.new(0.5), {ImageTransparency = 1})
-		TranspncyTween:Play()
-		wait(4)
-	end
-end
-coroutine.wrap(NSHDR_fake_script)()
-
--- Tweening animation for Green (initial move)
-local function UDIRPT_fake_script()
-	local script = Instance.new('LocalScript', Green)
-	local img = script.Parent
-	
-	img:TweenPosition(UDim2.new(0.451, 0, 0.395, 0), "Out", "Linear", 0.5, false)
-	wait(3)
-	img:TweenPosition(UDim2.new(0.005, 0, 0.619, 0), "Out", "Sine", 0.7, false)
-end
-coroutine.wrap(UDIRPT_fake_script)()
-
--- Output welcome and game name
-local function WGFAMY_fake_script()
-	local script = Instance.new('LocalScript', StigmanFroud)
-	local GetName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId)
-	
-	print("Loaded At", GetName.Name)
-	wait(0.1)
-	print("Welcome,", game.Players.LocalPlayer.Name)
+for i = 1, numOrbits do
+    local orbitImage = Instance.new("ImageLabel")
+    orbitImage.Name = "OrbitImage" .. i
+    orbitImage.Size = UDim2.new(0, 25, 0, 25)
+    orbitImage.AnchorPoint = Vector2.new(0.5, 0.5)
+    orbitImage.BackgroundTransparency = 1
+    orbitImage.Image = "rbxassetid://0"
+    orbitImage.Parent = RotatingLogo
+    
+    -- Make orbiting image circular
+    local orbitCorner = Instance.new("UICorner")
+    orbitCorner.CornerRadius = UDim.new(1, 0)
+    orbitCorner.Parent = orbitImage
+    
+    table.insert(orbitingImages, orbitImage)
 end
 
-loadPage()
+-- Rotation Animation
+local rotationAngle = 0
+local orbitAngle = 0
+game:GetService("RunService").RenderStepped:Connect(function(deltaTime)
+    -- Rotate main logo
+    rotationAngle = rotationAngle + (deltaTime * 50)
+    RotatingLogo.Rotation = rotationAngle
+    
+    -- Orbit small images
+    orbitAngle = orbitAngle + (deltaTime * 100)
+    for i, img in ipairs(orbitingImages) do
+        local angle = math.rad(orbitAngle + (i * 360 / numOrbits))
+        local x = 0.5 + (math.cos(angle) * orbitRadius / 100)
+        local y = 0.5 + (math.sin(angle) * orbitRadius / 100)
+        img.Position = UDim2.new(x, 0, y, 0)
+    end
+end)
